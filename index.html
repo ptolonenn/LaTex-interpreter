@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="LaTex interpreter" property="og.title">
+        <link rel="stylesheet" href="style.css">
+        <title>Latex Interpreter</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>LaTex Interpreter</h1>
+            <div class="split-container">
+                <!-- Input Box -->
+                 <div class="split-panel">
+                    <label for="latexInput">LaTex Input:</label>
+                    <textarea id="latexInput" placeholder="Write your LaTex here... (e.g, \frac{1}{2})"></textarea>
+                 </div>
+
+                <!-- Output Box -->
+                 <div class="split-panel">
+                    <label for="latexOutput">Rendered Output:</label>
+                    <div id="latexOutput" class="render-output"></div>
+                 </div>
+            </div>
+        </div>
+        <script src="frontend.js"></script>
+    </body>
+</html>
